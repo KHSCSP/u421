@@ -26,19 +26,13 @@ users = ["jo", "mo", "bo"]
 # TODO type your movie ratings tables here
 # each row is a movie, each column is a student
 movie_ratings = [
-    [5, 9, 10],
-    [4, 0, 5],
-    [7, 7, 9], 
-    [10, 5, 10],
-    [5, 4, 7]
+
 ]
 
 # TODO type your genre preferences table here
 # each row is a student, each column is a genre
 user_preferences = [
-    [9, 4, 8, 6], 
-    [10, 8, 4, 6],
-    [6, 8, 8, 10]
+
 ]
 
 

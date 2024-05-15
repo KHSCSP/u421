@@ -20,11 +20,11 @@ movie_genre = [
 
 
 
-# TODO rank the movies here
-movie_ratings = [5, 4, 7, 10, 5]
+# TODO rank the movies here (5 movies), 0 to 10
+movie_ratings = []
 
-# TODO rank the genres here
-user_preferences = [9, 4, 8, 6]
+# TODO rank the genres here (4 genres), 1 to 10
+user_preferences = []
 
 
 
