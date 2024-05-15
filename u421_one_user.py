@@ -10,7 +10,7 @@ genres = ["Action", "Adventure", "Science Fiction", "Comedy"]
 
 # data from the book
 # each row is a movie, each column is a genre
-movie_genre = [
+movie_genres = [
     [0.6, 0.0, 0.3, 0.1], 
     [0.2, 0.3, 0.3, 0.2],
     [0.3, 0.3, 0.4, 0.0], 
@@ -20,11 +20,11 @@ movie_genre = [
 
 
 
-# TODO rank the movies here (5 movies), 0 to 10
-movie_ratings = []
+# TODO rank the movies here, 0 to 10
+user_movie_ratings = []
 
-# TODO rank the genres here (4 genres), 1 to 10
-user_preferences = []
+# TODO rank the genres here, 1 to 10
+user_genre_preferences = []
 
 
 
@@ -33,8 +33,8 @@ user_preferences = []
 for movie in range(len(movies)):
     rating = 0
     for genre in range(len(genres)):
-        rating += user_preferences[genre] * movie_genre[movie][genre]
+        pass
     print(movies[movie], "recommended rating: ", rating) 
-    print("actual ranking was", movie_ratings[movie])
+    print("actual ranking was", user_movie_ratings[movie])
     print()
 
